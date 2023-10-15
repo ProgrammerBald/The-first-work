@@ -1,0 +1,177 @@
+@font-face{
+    font-family: menghuan;
+    src: url('../ttf/MengHuan.ttf');
+}
+@font-face {
+    font-family: miaozi;
+    src: url('../ttf/MiaoZi.ttf');
+}
+@font-face{
+    font-family: yezi;
+    src:url('../ttf/YeZi.ttf');
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+body{
+    background-color: rgba(232, 236, 212, 0.5);
+    background-image: url("../image/背景.jpg");
+}
+#menudiv{
+    position: absolute;
+    height: 55px;
+    width: 880px;
+    background-color: rgba(206, 181, 145, 0.5);
+    border-radius: 16.5px;
+    margin: auto;
+    top: 11px;
+    left: 495px;
+}
+.menuitems{
+    border-radius: 16.5px;
+    width: 110px;
+    height: 38.5px;
+    border-width: 0;
+    align-items: center;
+    margin: 8.2px 14px;
+    margin-left: 18px;
+    background-color: rgba(255,199,120,0);
+    font-size: 19px;
+    font-weight:3300;
+    font-family: yezi;
+    color: rgb(190, 199, 191);
+}
+.menuitems:hover{
+    background-color: rgba(232, 240, 163, 0.5);
+    color: rgb(249, 250, 249);
+}
+#mainpic{
+    position: absolute;
+    width: 880px;
+    height: 495px;
+    background-color: azure;
+    top: 88px;
+    left: 495px;
+    border-radius: 11px;
+}
+#mainpic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 1px;
+}
+#next{
+    width: 41px;
+    height: 33px;
+    position: absolute;
+    top: 50%;
+    left: 887px;
+    border-width: 0px;
+    border-radius: 5px;
+    opacity: 0.5;
+}
+#characterdiv{
+    background-color: rgba(255,199,120,0);
+    position: absolute;
+    width: 1050px;
+    height: 275px;
+    top: 605px;
+    left: 465px;
+    border-radius: 10px;
+}
+#bgm{
+    position:absolute;
+    width: 130px;
+    height: 20px;
+    top: 700px;
+    left: 40px;
+}
+.characteritems{
+    float: left;
+    position:relative;
+    width: 220px;
+    height: 250px;
+    margin-left: 11px;
+    background-color: rgba(207, 209, 187, 0.75);
+    border-width: 0px;
+    border-radius: 10px;
+}
+.characteritems p{
+    position:absolute;
+    top:11px;
+    left:33px;
+    font-family: yezi;
+    color: rgb(82, 63, 63);
+    font-size: 18px;
+}
+.characteritems img{
+    width: 110px;
+    height: 132px;
+    position: absolute;
+    top: 11px;
+    left: 100px;
+    border-radius: 10px;
+}
+.characteritems span{
+    width:200px;
+    position: absolute;
+    top: 153px;
+    left: 7px;
+    font-size: 14px;
+    font-family: miaozi;
+    color: rgb(44, 38, 38);
+    font-size:15px;
+}
+#musicplayer{
+    position:fixed;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    background-image: url("../image/播放器.png");
+    top: 650px;
+    left: 80px;
+    border-width: 1px;
+}
+.pangbai{
+    width: 100%;
+    height: 55px;
+    background-color: rgba(245, 191, 111, 0.6);
+    position:absolute;
+    top: 900px;
+}
+.pangbai p{
+    font-size: 24px;
+    position:absolute;
+    top: -7px;
+    left: 600px;
+    color: rgb(255, 238, 216);
+    font-family: menghuan;
+    letter-spacing: 1em;
+    font-weight:bolder;
+}
+#clickChangeBgmIntro{
+    position:absolute;
+    top: 760px;
+    left: 20px;
+    font-family: menghuan;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(197, 132, 143);
+}
+#bgmnamediv{
+    position:absolute;
+    top: 740px;
+    left: 10px;
+    width: 200px;
+}
+#bgmname{
+    position:relative;
+    font-family: menghuan;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(197, 132, 143);
+    text-align: center;
+}
