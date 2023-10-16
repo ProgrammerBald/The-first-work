@@ -1,0 +1,43 @@
+#bgm{
+    position:fixed;
+    width: 130px;
+    height: 20px;
+    top: 700px;
+    left: 40px;
+}
+#musicplayer{
+    position:fixed;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border-radius: 50%;
+    background-image: url("../image/播放器.png");
+    top: 650px;
+    left: 80px;
+    border-width: 1px;
+    cursor: pointer;
+}
+#clickChangeBgmIntro{
+    position:fixed;
+    top: 760px;
+    left: 35px;
+    font-family: menghuan;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgb(197, 132, 143);
+}
+#bgmname{
+    position:absolute;
+    font-family: menghuan;
+    font-weight: bold;
+    font-size: 17px;
+    color: rgb(197, 132, 143);
+    margin: auto;
+    left: 10%;
+}
+#bgmnamediv{
+    position:fixed;
+    top: 755px;
+    left: 70px;
+    width: 200px;
+}

@@ -1,0 +1,72 @@
+@font-face{
+    font-family: menghuan;
+    src: url('../ttf/MengHuan.ttf');
+}
+@font-face {
+    font-family: miaozi;
+    src: url('../ttf/MiaoZi.ttf');
+}
+@font-face{
+    font-family: yezi;
+    src:url('../ttf/YeZi.ttf');
+}
+body{
+    background-color: beige;
+}
+.maindiv{
+    margin: auto;
+    text-align: center;
+}
+#backtomainbtn{
+    width: 50px;
+    height: 40px;
+    position: fixed;
+    left: 20px;
+    border-width: 0;
+    background-color: rgba(1,1,1,0);
+    border-radius: 15px;
+}
+#backtomainbtn img{
+    width: 100%;
+    height: 100%;
+}
+#backtomainbtn:hover{
+    background-color: rgba(107, 110, 99, 0.4);
+    cursor: pointer;
+}
+h1{
+    margin: auto;
+    font-family: yezi;
+}
+.chara-div{
+    width: 1000px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    position: relative;
+    margin-top: 10px;
+}
+.chara-div img{
+    height:190px;
+    border-radius: 10px;
+    position:absolute;
+    left:15px;
+    top: 5px;
+}
+.chara-div p1{
+    font-family: miaozi;
+    position: absolute;
+    font-weight: bold;
+    left: 200px;
+    top: 10px;
+}
+.chara-div p2{
+    font-family: miaozi;
+    position: absolute;
+    text-align: left;
+    font-size: 17px;
+    line-height: 1.3em;
+    left: 200px;
+    top: 50px;
+}
