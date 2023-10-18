@@ -30,5 +30,5 @@ function changebgm(){
 }
 
 function backtomain(){
-    window.location.href="../index.html";
+    window.location.href="index.html";
 }
