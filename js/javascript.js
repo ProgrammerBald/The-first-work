@@ -22,8 +22,8 @@ function gonext(){
     mainimg.src="image/"+imgcode+".jpg";
 }
 function gocharacter(){
-    window.location.href="../character.html";
+    window.location.href="character.html";
 }
 function gocontent(){
-    window.location.href="../sum.html";
+    window.location.href="sum.html";
 }
