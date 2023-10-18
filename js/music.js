@@ -5,7 +5,7 @@ var isrotate = false;
 var a = 0;
 
 function backtomain(){
-    window.location.href="../index.html";
+    window.location.href="index.html";
 }
 //实现音乐切换
 var musics = new Array("first kiss", "淡水海边", "父与子", "脚踏车", "路小雨", "小雨写立可白I", "早操", "小雨写立可白II");
